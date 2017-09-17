@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style>
+body {
+  font: 10px sans-serif;
+}
+
+svg text{
+  fill:grey;
+  font-size:15px;
+	font : arial;
+}
+svg .values text{
+  pointer-events:none;
+  stroke-width: 0.5px;
+}
+.groups:hover{
+  cursor:pointer;
+  font-weight:bold;
+}
+
+</style>
+
+	<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="./resources/ol.css" />
+        <link rel="stylesheet" href="./resources/ol3-layerswitcher.css">
+        <link rel="stylesheet" href="./resources/qgis2web.css">
+        <style>
+        html, body {
+            background-color: #ffffff;
+        }
+        </style>
+        <style>
+        html, body, #map {
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+        }
+        </style>
+        <title></title>
+ 
+    
+    
+<div>
+<font size=8>
+Migrations residentielles en nombre de personnes </br> ayant transite par Rennes Metropole(43) durant l'annee 2012.
+</font>
+</div>   
+</head>
+
+<body>
+
+
+<div id="2">
+<i>
+<font size=4>
+</br>
+</br>
+Rennes : Commune de Rennes </br>
+Coeur : Saint Gregoire / Cesson / Chantepie / Saint Jacques </br>
+Pole : Pole structurant de Rennes Metropole ie. Betton / Pace / Le Rheu (j'ai oublie le nom des autres) </br>
+Rennes Metropole : Autres communes de RM, non concernees par la typologie precedente </br>
+</br>
+Aire urbaine : Communes de l'Aire urbaine de Rennes (011) moins les communes de RM</br>
+Proximite : Commune des departements 35(non AU)/ 22 / 56 / 50 / 53 /44 </br>
+Grand Ouest : Communes des departements 29 / 14 / 49 /61 / 72 / 85 </br>
+Ile-de-France : Communes des departements 75 / 77 /78 / 91 / 92 / 93 / 94 / 94 / 95 </br>
+France entiere : Communes des departements francais non cites, dont DOM TOM</br>
+ZZZ : !!!!!! AUTRES
+</i>
+</font>
+</div>
+
+<div id="2">
+<i>
+<font size=2>
+</br>
+</br>
+Note de lecture :</br>
+En 2012, 5 525 personnes ont change de domicile alors qu'elles habitaient dans le Coeur de Metropole.</br>
+Parmi elles, 756 sont parties s'installer dans le reste de l'Aire Urbaine. [Donnees apparaissant au survol de la categorie]</br>
+A contrario, 928 ont choisi de s'installer dans la commune de Rennes.</br>
+</i>
+</font>
+</div>
+
+
+#####			 CARTOGRAPHIE		#####
+        <div id="map" style="height:500x; width: 500px; float: right; margin-right : 40px;">
+            <div id="popup" class="ol-popup">
+                <a href="#" id="popup-closer" class="ol-popup-closer"></a>
+                <div id="popup-content"></div>
+            </div>
+        </div>
+        <script src="resources/polyfills.js"></script>
+        <script src="./resources/ol.js"></script>
+        <script src="./resources/ol3-layerswitcher.js"></script>
+        <script src="layers/France.js"></script><script src="layers/IledeFrance.js"></script><script src="layers/GrandOuest.js"></script><script src="layers/AireUrbainedeRennes.js"></script><script src="layers/RennesMetropoleEstOuest.js"></script><script src="layers/RennesMetropoleNordSud.js"></script><script src="layers/RennesMtropole.js"></script><script src="layers/CoeurdeMetropole.js"></script><script src="layers/Coeur1.js"></script><script src="layers/Coeur2.js"></script><script src="layers/Rennes.js"></script><script src="layers/Polestructurant.js"></script>
+        <script src="styles/France_style.js"></script><script src="styles/IledeFrance_style.js"></script><script src="styles/GrandOuest_style.js"></script><script src="styles/AireUrbainedeRennes_style.js"></script><script src="styles/RennesMetropoleEstOuest_style.js"></script><script src="styles/RennesMetropoleNordSud_style.js"></script><script src="styles/RennesMtropole_style.js"></script><script src="styles/CoeurdeMetropole_style.js"></script><script src="styles/Coeur1_style.js"></script><script src="styles/Coeur2_style.js"></script><script src="styles/Rennes_style.js"></script><script src="styles/Polestructurant_style.js"></script>
+        <script src="./layers/layers.js" type="text/javascript"></script> 
+        <script src="./resources/qgis2web.js"></script>
+        <script src="./resources/Autolinker.min.js"></script>
+        
+        
+#####		DIAGRAMME			######
+        <div id="diagramme" style="height:1200x; width: 1100px; float: right; margin-left : 40px;">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="http://vizjs.org/viz.v1.1.0.min.js"></script>
+<script>
+
+var data = [['Rennes','Rennes',19888]
+,['Rennes','Coeur',1540]
+,['Rennes','Pole',1437]
+,['Rennes','Rennes Metropole',1920]
+,['Rennes','Aire Urbaine',2346]
+,['Rennes','Grand Ouest',6854]
+,['Rennes','Ile-de-France',2506]
+,['Rennes','France entiere',4545]
+,['Rennes','99999',0]
+,['Coeur','Rennes',928]
+,['Coeur','Coeur',1652]
+,['Coeur','Pole',423]
+,['Coeur','Rennes Metropole',560]
+,['Coeur','Aire Urbaine',756]
+,['Coeur','Grand Ouest',652]
+,['Coeur','Ile-de-France',189]
+,['Coeur','France entiere',365]
+,['Coeur','99999',0]
+,['Pole','Rennes',825]
+,['Pole','Coeur',219]
+,['Pole','Pole',2538]
+,['Pole','Rennes Metropole',1032]
+,['Pole','Aire Urbaine',1264]
+,['Pole','Grand Ouest',1044]
+,['Pole','Ile-de-France',292]
+,['Pole','France entiere',545]
+,['Pole','99999',0]
+,['Rennes Metropole','Rennes',897]
+,['Rennes Metropole','Coeur',344]
+,['Rennes Metropole','Pole',783]
+,['Rennes Metropole','Rennes Metropole',3413]
+,['Rennes Metropole','Aire Urbaine',2058]
+,['Rennes Metropole','Grand Ouest',1325]
+,['Rennes Metropole','Ile-de-France',251]
+,['Rennes Metropole','France entiere',558]
+,['Rennes Metropole','99999',0]
+,['Aire Urbaine','Rennes',1914]
+,['Aire Urbaine','Coeur',451]
+,['Aire Urbaine','Pole',751]
+,['Aire Urbaine','Rennes Metropole',1221]
+,['Aire Urbaine','Aire Urbaine',0]
+,['Aire Urbaine','Grand Ouest',0]
+,['Aire Urbaine','Ile-de-France',0]
+,['Aire Urbaine','France entiere',0]
+,['Aire Urbaine','99999',0]
+,['Grand Ouest','Rennes',10259]
+,['Grand Ouest','Coeur',1218]
+,['Grand Ouest','Pole',1593]
+,['Grand Ouest','Rennes Metropole',1516]
+,['Grand Ouest','Aire Urbaine',0]
+,['Grand Ouest','Grand Ouest',0]
+,['Grand Ouest','Ile-de-France',0]
+,['Grand Ouest','France entiere',0]
+,['Grand Ouest','99999',0]
+,['Ile-de-France','Rennes',2475]
+,['Ile-de-France','Coeur',555]
+,['Ile-de-France','Pole',409]
+,['Ile-de-France','Rennes Metropole',365]
+,['Ile-de-France','Aire Urbaine',0]
+,['Ile-de-France','Grand Ouest',0]
+,['Ile-de-France','Ile-de-France',0]
+,['Ile-de-France','France entiere',0]
+,['Ile-de-France','99999',0]
+,['France entiere','Rennes',4128]
+,['France entiere','Coeur',576]
+,['France entiere','Pole',748]
+,['France entiere','Rennes Metropole',634]
+,['France entiere','Aire Urbaine',0]
+,['France entiere','Grand Ouest',0]
+,['France entiere','Ile-de-France',0]
+,['France entiere','France entiere',0]
+,['France entiere','99999',0]
+,['99999','Rennes',2117]
+,['99999','Coeur',247]
+,['99999','Pole',287]
+,['99999','Rennes Metropole',153]
+,['99999','Aire Urbaine',0]
+,['99999','Grand Ouest',0]
+,['99999','Ile-de-France',0]
+,['99999','France entiere',0]
+,['99999','99999',0]
+
+];
+
+var colors = {
+"Rennes":    "#fec00f"
+,"Coeur":    "#d9df5e"
+,"Pole":    "#9bbb59"
+,"Rennes Metropole":        "#8064a2"
+,"Aire Urbaine": "#eb4ddc"
+,"Grand Ouest": "#f78746"
+,"Ile-de-France":      "#3333cc"
+,"France entiere":"#00000"
+,"99999": "#4e7bda"
+};
+
+var sortOrder =[
+"Rennes"
+,"Coeur"
+,"Pole"
+,"Rennes Metropole"
+,"Aire Urbaine"
+,"Grand Ouest"
+,"Ile-de-France"
+,"France entiere"
+,"99999"
+];
+
+function sort(a,b){ return d3.ascending(sortOrder.indexOf(a),sortOrder.indexOf(b)); }
+
+var ch = viz.ch().data(data)
+      .padding(.01)
+      .sort(sort)
+	  .innerRadius(430)
+	  .outerRadius(450)
+	  .duration(1000)
+	  .chordOpacity(0.3)
+	  .labelPadding(.03)
+      .fill(function(d){ return colors[d];});
+
+var width=1200, height=1100;
+
+var svg = d3.select("body").append("svg").attr("height",height).attr("width",width);
+
+svg.append("g").attr("transform", "translate(600,550)").call(ch);
+
+// adjust height of frame in bl.ocks.org
+d3.select(self.frameElement).style("height", height+"px").style("width", width+"px");     
+</script>
+</body>
+
+
+
+
+
+
