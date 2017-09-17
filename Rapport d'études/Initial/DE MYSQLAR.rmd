@@ -1,0 +1,56 @@
+---
+title: "Importer ses données depuis MySql dans R"
+author : "Marine"
+output: pdf_document
+params:
+  minimum: 100
+  region: east
+  data: results.csv
+eval : false
+---
+
+/!\ Ne pas oublier de déconnecter en faisant tourner la dernière ligne 
+
+1 - Mise en place des packages nécessaires
+```{r eval= FALSE}
+install.packages("RMySQL")
+library("RMySQL")
+```
+
+2 - Connecting to MySQL
+ICI remplir les champs : type de serveur, user, password, la base à charger, et le serveur 
+```{r eval= FALSE}
+mydb = dbConnect(MySQL(), user='root', password='', dbname='rc2009', host='localhost')
+```
+
+Visualisation de l'importation de données
+Listing Tables and Fields, i.e. tables dans la BDD de chargée
+```{r eval= FALSE}
+dbListTables(mydb)
+```
+-Variables de la table choisie, A REMPLIR
+```{r eval= FALSE}
+dbListFields(mydb, 'fd_logemtzc_2013')
+```
+
+Importation des données nécessaires
+- Ecrire dans objet R1 la requête en SQL des éléments à sélectionner, tout ou partie
+```{r eval= FALSE}
+Ri <- "SELECT * FROM rc2009.fd_logemtzc_2009 where commune='35278' "
+```
+
+- Récupération des éléments décrits dans la requête Ri
+```{r eval= FALSE}
+Bi <- dbGetQuery(mydb, R2)
+```
+ 
+4 bis - Création d'une autre sous-base : copier/coller bloc n°4 et ajouter +1 à Ri & Bi
+```{r eval= FALSE}
+
+```
+
+
+DECONNEXION !!
+```{r eval= FALSE}
+dbDisconnect (mydb)
+```

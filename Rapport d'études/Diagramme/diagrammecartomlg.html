@@ -1,0 +1,26 @@
+\boitesimple{
+	\textbf{Quotient de mortalité :} Probabilité de décéder qu'a un individu entre deux anniversaires.\\
+	\textbf{Risque relatif :} Mesure  le risque de survenue d'un événement dans un groupe par rapport à l’autre.\\\\
+	\textit{Soit i un âge, \\
+	Soit t une année donnée,\\
+	Soit d un nombre de décès, \\
+	Soit P un effectif de population,}
+\begin{center}
+	\begin{equation}
+	\large{
+	q_{i;i+1}^t = \frac{d_i^t}{\frac{(P_i^t + P_{i+1}^{t+1})}{2}}
+	}
+	\end{equation}
+\end{center}
+	\textit{Soit s \in \left\{1;2\right\}, le sexe,\\
+	Soit Y \in \left\{A;B;C;D\right\}, un niveau de diplôme atteint,\\
+	Alors C est un risque relatif de décès, tq : \\}
+\begin{center}
+	\begin{equation}
+	C_{s;x}^t = \frac{q_{i;i+1}^t}{q_{i;i+1}^t}
+	\end{equation}
+\end{center}
+	C \in \mathbb{R}^* \\
+	C \geq 1, un risque plus important de connaitre le décès à l'âge considéré \\
+	C \leq 1, un risque moindre de connaitre le décès à l'âge considéré
+	}
