@@ -6,9 +6,9 @@
 \usepackage{listings, xcolor}
 \usepackage{pdfpages} 
 
-      %package pour inclure des pages d'un doc pdf (commande includepdf)
+ %package pour inclure des pages d'un doc pdf (commande includepdf)
 \lstdefinelanguage{JavaScript}{
-  keywords			={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+  keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
   keywordstyle	=\color{blue}\bfseries,
   ndkeywords		={class, export, boolean, throw, implements, import, this},
   ndkeywordstyle=\color{darkgray}\bfseries,
@@ -76,7 +76,7 @@ showtabs				=false
 		\item[Maître de stage~:] Loïc \textsc{Bourriquen}, Directeur d'études, AUDIAR
 		\item[Tuteur pédagogique~:] Philippe \textsc{Cordazzo}, Prof. des Universit\'{e}s, Unistra
 		\item[Lecteur~:] Nicolas \textsc{Cauchi-Duval}, Maître de Conférence, Unistra
-	\end{description}
+\end{description}
 }
 \author{Marine Le Gall}
 \date{\\\centering{15 Septembre 2017}}
@@ -92,12 +92,29 @@ showtabs				=false
 \clearemptydoublepage
 \frontmatter
 \chapter*{Introduction}
+Ce document est le \large{\textit{Rapport d'Etudes}} de mon stage effectué au sein de l'Agence d'Urbanisme et de Développement de l'Intercommunalité et de l'Agglomération Rennaise (AUDIAR) au cours du premier semestre 2017, dans le cadre de mon Master 2 de Démographie auprès de l'Université de Strasbourg. Ici sont présentés les éléments produits durant le stage, constituant les éléments nécessaires au projet. Les éléments de contexte sont présents dans un document complémentaire intitulé \large{\textit{Rapport de Stage}}.\\\\\\
+L'ensemble est disponible sur un espace de dépôt en accès libre, à l'adresse qui suit :\\
+\begin{center}
+\color{mypink}
+\href{www.github.com/mlegall/GIT1}{\ttfamily{\textbf{www.github.com/mlegall/GIT1}}}
+\color{black}
+
+\end{center}
+\\\\Bons nombres de contenus étant informatiques, il est possible de les retrouver à travers les différents items se trouvant dans la racine définie ci-dessus.
+Les liens directs vers ces documents au format PDF sont :\\\\
+\ldots \href{https://github.com/mlegall/GIT1/blob/master/Rappor/RELANCESTAGE2.pdf}{\Large{Rapport de Stage}}\\
+\\
+\ldots \href{https://github.com/mlegall/GIT1/blob/master/Rappor/RELANCESTAGE2.pdf}{\Large{Rapport d'Etudes}}\\
+\\\\
+\begin{flushright}
+Contact : \href{mailto:marine-legall@orange.fr}{\ttfamily{marine-legall@orange.fr}}
+\end{flushright}
 \tableofcontents
 \clearemptydoublepage
 \mainmatter
 \part[Simulateur Démographique]{Simulateur démographique}
 Document de présentation des objectifs et de l'environnement de travail de la mission en décembre 2016.
-\includepdfmerge[nup=1x2, angle=90, linktodoc, scale = 0.80, offset =30mm -30mm]
+\includepdfmerge[nup=1x2, angle=90, linktodoc, scale = 0.80, offset =30mm -30mm, frame = true]
 	{initial/synthese_stage_V5.pdf, 2-1,
 	initial/synthese_stage_v5.pdf, 4-3}
 \clearemptydoublepage
@@ -162,7 +179,7 @@ dbDisconnect (mydb)
 \end{lstlisting}
 \boitesimple{ 
 \textbf{Markdown :} \textit{Markdown est un langage de balisage léger créé par John Gruber en 2004. Son but est d'offrir une syntaxe facile à lire et à écrire. Un document formaté selon Markdown devrait pouvoir être publié comme tel, en texte, sans donner l’impression qu’il a été marqué par des balises ou des instructions de formatage\footnote{Wikipédia, vu le 5/09}.}
-\\\\Voir également la version HTML dans le dépôt, permettant d'executer directement le code. De même, la modification de la version .rmd du document changera en retour la version html. Pour générer cette page depuis le script .rmd dans R, il a suffit de changer l'en-tête, tel que :\\output: pdf\_document \stackrel{}{\rightarrow} output: html\_document}
+\\\\Voir également la version HTML dans le dépôt, permettant d'executer directement le code. De même, la modification de la version .rmd du document changera en retour la version html. Pour générer cette page depuis le script .rmd dans R, il a suffit de changer l'en-tête, tel que :\\output: $pdf\_document \stackrel{}{\rightarrow} output: html\_document$}
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{initial/de_mysqlar.pdf}
@@ -195,7 +212,7 @@ dbDisconnect (mydb)
 	}
 Les scripts qui suivent sont en réalité consolidés en un seul fichier, ils ne pourraient être autonomes, mais la présentation suivante les distingue selon les étapes décrites dans le rapport de stage.
 \begin{table}
-\begin{tabular}{|l|p{9.5cm}|}
+\begin{tabular}{|l|p{9cm}|}
 \hline
 \large{Commande} & \large{Description} \\ \hline
 \$nnn & Déclaration d'une variable nnn \\ \hline
@@ -1052,7 +1069,7 @@ WHERE IRIS_2013 like '35024%' OR iris_2013 like '35281%'  ";
 		}
 	}
 \end{lstlisting}
-\section{Etape N°4 : Remplissage}	
+\section{Etape n°4 : Remplissage}	
 \begin{lstlisting}[caption = Script php permettant de remplir les données manquantes selon les lois de probabilités sur le Reste à Distribuer, language = php]
 
 #	Age
@@ -1764,11 +1781,6 @@ while($a > -1){
 \clearemptydoublepage
 \chapter[Construction des hypothèses de projection]{Construction des hypothèses de projection}
 \section{Hypothèses de fécondité}
-\begin{figure} \centering
-\includegraphics[width=\textwidth]{hypothese/tauxfec.png}
-\caption{Taux de fécondité selon l'âge et le scénario envisagé}
-\label{Taux de fécondité}
-\end{figure}
 \boitesimple{
 	\textbf{Indice Conjoncturel de Fécondité (ICF) :} Nombre moyen d'enfants par femme en âge de procréer.\\
 	\textbf{Taux de fécondité par âge :} Probabilité qu'a une femme d'avoir un enfant à l'âge concerné.\\\\
@@ -1876,6 +1888,12 @@ Afin de garde les éléments de calendrier, mais d'intégrer différentes hypothèses
 
 \newpage
 \begin{figure} \centering
+\includegraphics[width=\textwidth]{hypothese/tauxfec.png}
+\caption{Taux de fécondité selon l'âge et le scénario envisagé}
+\label{Taux de fécondité}
+\end{figure}
+\newpage
+\begin{figure} \centering
 \includegraphics[width=\textwidth]{Hypothese/table_fec.png}
 \caption{Vue de la table MySql des taux de fécondité dans l'interface phpMyAdmin}
 \label{Taux de fécondité}
@@ -1899,7 +1917,7 @@ Afin de garde les éléments de calendrier, mais d'intégrer différentes hypothèses
 	Alors C est un risque relatif de décès, tq : \\
 	\begin{center}
 	\begin{equation} \large{
-	_{(s;y)}C_{(i;i+1)}^t = \frac{_{(s;y)}Q_{(i;i+1)}^t}{_{(s)}Q_{(i;i+1)}^t} }
+	_{(s;y)}C_{(i)}^t = \frac{_{(s;y)}Q_{(i;i+1)}^t}{_{(s)}Q_{(i;i+1)}^t} }
 	\end{equation}
 	\end{center}
 	\\C $\in \mathbb{R}^*$ \\
@@ -1911,22 +1929,23 @@ Afin de garde les éléments de calendrier, mais d'intégrer différentes hypothèses
 \tablefirsthead{%
 \hline
 	&	\multicolumn{10}{|c|}{ 2013 } \\	\hline
-	&	 \multicolumn{2}{|c|}{Q_{i;i+1} p.100 000}&	\multicolumn{8}{|c|}{Risque relatif selon le sexe, du sous-groupe / Ensemble}\\	\hline
-	&	\multicolumn{2}{|c|}{Ensemble}&	\multicolumn{2}{|c|}{Sans diplôme}&	\multicolumn{2}{|c|}{BEP-CAP} &	\multicolumn{2}{|c|}{Bac}&\multicolumn{2}{|c|}{Etudes sup.}\\	\hline
+	&	 \multicolumn{2}{|c|}{Q_{i;i+1} p.100 000}&	\multicolumn{8}{|c|}{Risque relatif du sous-groupe / Ensemble}\\	\hline
+	&	\multicolumn{2}{|c|}{Ensemble}&	\multicolumn{2}{|c|}{Sans dip.}&	\multicolumn{2}{|c|}{BEP-CAP} &	\multicolumn{2}{|c|}{Bac}&\multicolumn{2}{|c|}{Etudes sup.}\\	\hline
 Âge exact	&	 H 	&	 F 	&	 H 	&	 F 	&	 H 	&	 F 	&	 H 	&	 F 	&	 H 	&	 F 	\\	\hline}
 \tablehead{%
 \hline
-\multicolumn{11}{|l|}{\small\sl ... Suite}\\ \hline
+\multicolumn{11}{|r|}{\small\sl ... Suite}\\ \hline
 	&	\multicolumn{10}{|c|}{ 2013 } \\	\hline
-	&	 \multicolumn{2}{|c|}{Q_{i;i+1} p.100 000}&	\multicolumn{8}{|c|}{Risque relatif selon le sexe, du Sous-groupe / Ensemble}\\	\hline
-	&	\multicolumn{2}{|c|}{Ensemble}&	\multicolumn{2}{|c|}{Sans diplôme}&	\multicolumn{2}{|c|}{BEP-CAP} &	\multicolumn{2}{|c|}{Bac}&\multicolumn{2}{|c|}{Etudes sup.}\\	\hline
+	&	 \multicolumn{2}{|c|}{Q_{i;i+1} p.100 000}&	\multicolumn{8}{|c|}{Risque relatif du Sous-groupe / Ensemble}\\	\hline
+	&	\multicolumn{2}{|c|}{Ensemble}&	\multicolumn{2}{|c|}{Sans dip.}&	\multicolumn{2}{|c|}{BEP-CAP} &	\multicolumn{2}{|c|}{Bac}&\multicolumn{2}{|c|}{Etudes sup.}\\	\hline
 Âge	exact &	 H 	&	 F 	&	 H 	&	 F 	&	 H 	&	 F 	&	 H 	&	 F 	&	 H 	&	 F 	\\	\hline}
 \tabletail{%
 \hline
 \multicolumn{11}{|r|}{\small\sl à suivre ...}\\
 \hline}
 \tablelasttail{\hline}
-\begin{supertabular}{|p{1.1cm}||p{1.2cm}|p{1.2cm}|p{0.9cm}|p{0.9cm}|p{0.9cm}|p{0.9cm}|p{0.9cm}|p{0.9cm}|p{0.9cm}|p{0.9cm}|}
+\tablecaption{Mortalité selon l'âge, le sexe, et le niveau de diplôme atteint en 2013}
+\begin{supertabular}{|p{1.1cm}||p{1.4cm}|p{1.4cm}|p{0.8cm}|p{0.8cm}|p{0.8cm}|p{0.8cm}|p{0.8cm}|p{0.8cm}|p{0.8cm}|p{0.8cm}|}
 30	&	 82   	&	30	&	2,21	&	 1,96   	&	1,16	&	1,48	&	0,80	&	0,72	&	 0,48   	&	 0,48   	\\	\hline
 31	&	 87   	&	33	&	2,22	&	 1,95   	&	1,17	&	1,46	&	0,81	&	0,74	&	 0,50   	&	 0,49   	\\	\hline
 32	&	 92   	&	35	&	2,22	&	 1,93   	&	1,18	&	1,45	&	0,82	&	0,76	&	 0,51   	&	 0,50   	\\	\hline
@@ -2006,6 +2025,30 @@ Afin de garde les éléments de calendrier, mais d'intégrer différentes hypothèses
 	\caption{Quotient de mortalité p.1000 individus, selon la date, le sexe et le diplôme}
 	\label{Quotients de mortalité}
 \end{figure}
+Les résultats présentés sont calculés à patir des données projetées de l'INSEE jusqu'en 2070. Les séries sont annuelles, mais pour gagner en simplicité, une seule d'entre elles a servi de référence, la série de 2030. L'horizon des projections du simulateur n'est pas fixe, mais l'ordre de grandeur est de 30 ans, c'est pourquoi l'année 2030 était relativement centrale pour l'exercice.\\\\
+Plusieurs scnéarios ont été développés dans les travaux prospectifs de l'INSEE, mais ceux ayant servi aux calculs sont issus du scénario central, [Cf.tableau XX]\\\\
+\begin{table}\centering
+\begin{tabular}{|l|p{2.5cm}|p{2.5cm}|}
+\hline
+\multicolumn{3}{|c|}{Espérance de vie à la naissance 2070 (années)} \\ \hline
+Hypothèse & Femmes & Hommes \\ \hline
+Centrale & 93,0 & 90,1 \\ \hline
+Basse & 90,0 & 87,1 \\ \hline
+Haute & 96,0 & 93,1 \\ \hline
+\end{tabular}
+\caption{Hypothèses de mortalité projetées par l'INSEE selon le sexe}
+\begin{flushright}
+\source{Champ : France, \\Source : Insee, projections de population 2013-2070,\\ \href{https://www.insee.fr/fr/statistiques/pyramide/2524484/excel/irsocprojpop1370_FECcentESPcentMIGcent.xls}{\textit{Téléchargement direct}}}
+\end{flushright}
+\end{table}
+\boitesimple{\textbf{Esperance de vie à la naissance :} L'espérance de vie à la naissance (ou à l'âge 0) représente la durée de vie moyenne - autrement dit l'âge moyen au décès - d'une génération fictive soumise aux conditions de mortalité de l'année.(INSEE)}
+\\Dans le cas présent on retrouve une esperance de 87,7 ans pour les femmes, contre 82,7 ans pour les hommes. Les quotients de mortalité correspondant constituent la série $q_i^{2030}$.
+\\Afin de combiner les différents éléments d'analyse, les nouveaux taux $_{s;y}q{*}_i^{2030}$ :
+\begin{center}\large{
+\begin{equation}$_{s;y}q{*}_i^{2030} = _{s;y}q_i^{2030} *  _{(s;y)}C_{i}^{2013} $ \end{equation}}
+\end{center}
+\\Les individus nés après 1983 se verront appliqués le taux global, c'est à dire les individus pour lesquels on ne tient pas compte du diplôme, dans ce cas la $_{(s;y)}C_{i}^{2013} = 1$.
+
 \newpage
 \section{Gestion des migrations}
 \begin{figure}\centering
@@ -2013,7 +2056,7 @@ Afin de garde les éléments de calendrier, mais d'intégrer différentes hypothèses
 \caption{Vue dans phpMyAdmin de la table MySql des migrants générés pour 2013 mais non encore intégrés}
 \end{figure}
 \newpage
-\chapter[Projection]{Projection}
+\chapter[Projection]{Etape n°5 : Projection}
 \begin{lstlisting}[caption= Paramètrage de la page HTML générant l'interface, language = HTML]
 <html>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//FR"
@@ -2927,18 +2970,16 @@ d3.select(self.frameElement).style("height", height+"px").style("width", width+"
 			\caption{\label{Vue statique du diagramme de chord} Vue initiale 		de 	la page html contenant le diagramme de chord et la cartographie dynamique}
 	\end{figure}
 \begin{figure} \centering
-	\backmatter
 		\includegraphics[width=\textwidth]{diagramme/web2.png}
 		\caption{\label{Vue dynamique du diagramme de chord} Vue au survol d'une modalité de la page html contenant le diagramme de chord et la cartographie dynamique}
 	\end{figure}
-	
-	
-	
-	\clearemptydoublepage
-	\listoffigures
-	\clearemptydoublepage
-	\listoftables
-	\clearemptydoublepage
-	\listoflistings
-	\clearemptydoulepage
+
+\backmatter
+\clearemptydoublepage
+\listoffigures
+\clearemptydoublepage
+\listoftables
+\clearemptydoublepage
+\lstlistoflistings
+\clearemptydoulepage
 \end{document}
