@@ -49,9 +49,9 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{bredele}[14/09/2010 v2.0]
 
-\LoadClass[12pt,a4paper]{report}	% notez le "twoside", essentiellement pour alterner les en-têtes et pieds de page gauche et droit si on veut utiliser les fancyhead. 
+\LoadClass[12pt,a4paper, oneside]{book}	% notez le "twoside", essentiellement pour alterner les en-têtes et pieds de page gauche et droit si on veut utiliser les fancyhead. 
 
-\RequirePackage[latin9]{inputenc}			% merci à Jean-Marc Hamon pour rappeler qu'il faut faire attention à l'encodage :)
+\RequirePackage{inputenc}			% merci à Jean-Marc Hamon pour rappeler qu'il faut faire attention à l'encodage :)
 \RequirePackage[french]{babel}
 \RequirePackage{ifpdf, color}
 \RequirePackage{textcomp}
@@ -170,24 +170,6 @@
 % simplement compiler avec $biber nomdufichier (sans le .tex). Si vous voulez
 % en rester à bibtex,il vous suffit de placer backend=bibtex.
 
-\bibliography{biblio} %Nom du fichier bibtex a utiliser.
-\defbibheading{primary}{\section*{Sources primaires}} % Catégorie (sous forme de section) pour le tri de la bibliographie.
-
-\defbibheading{secondary}{\section*{Sources secondaires}} % Catégorie (sous forme de section) pour le tri de la bibliographie.
-
-\renewcommand*{\newunitpunct}{\addcomma\space} % Virgule entre les parties d'une référence (merci a Josquin Debaz)
-
-%%%% Ajustements pour la bibliographie
-%\DeclareFieldFormat[article]{volume}{\textbf{#1}}  %Le numéro de volume en gras
-\DeclareFieldFormat[article]{number}{\textit{#1}} %Le numéro dans le volume en italique
-%\DeclareFieldFormat{pages}{page(s): #1} % page(s) en toutes lettres, si on veut...
-
-\renewcommand{\mkibid}[1]{\emph{#1}} %Les locutions latines en italique (comme ibid, loc.cit. , etc.) Merci à Josquin Debaz
-
-% Et pour mettre le in en italique dans la référence biblio (merci encore à Josquin Debaz)
-\DefineBibliographyStrings{french}{%
-	in = {\emph{in}}%
-}
 
 
 %%%%%%%%%%%%%%%%%% Interligne simple pour citations et vers %%%%%%%%%
@@ -276,17 +258,18 @@
 	\node[xshift=0\paperwidth,yshift=2cm,text=white,font=\bf\Large] {
 	\includegraphics[scale=\@scalelogouniversite]{\@logouniversite}
 	};
-	\node[xshift=.6\paperwidth,yshift=2cm,text=white,font=\bf\Large] {
+	\node[xshift=.6\paperwidth,yshift=1.5cm,text=white,font=\bf\Large] {
 	\includegraphics[scale=\@scalelogolabo]{\@logolabo}
 	};
 	\node at (current page.center)
 {\parbox{13cm}{
 	\begin{center}
-		\large Agence d'Urbanisme de l'Intercommunalité et de l'Agglomération Rennaise \\ \@nomdeuniversite
+		\large Agence d'Urbanisme et de D\'{e}veloppement Intercommunal de l'Agglom\'{e}ration Rennaise
+\\ \@nomdeuniversite
 	\end{center}
 \begin{center}
 \begin{huge}
-\ding{92}
+\ding{89}
 \end{huge}
 \end{center}
 \begin{center}
@@ -296,7 +279,7 @@
 	\begin{center}
 		\textbf{ \@discipline}
 	\end{center}
-\vspace{2cm}
+\vspace{3cm}
 \noindent\rule{13cm}{0.5mm}
 	\begin{center}
 		{\setlength{\baselineskip}{1\baselineskip}
@@ -310,7 +293,7 @@
 	\begin{flushright}
 		\textsc{ \textbf{\@author}}
 	\end{flushright}
-%\vspace{1cm}
+%\vspace{3cm}
 \bigskip
 	\begin{flushleft}
 		\textsc{\@dirdethese}  \@titredudirdethese
@@ -375,6 +358,7 @@
 }
 
 
+
 %%%%%%%%%%%%%% FAIRE DES ENCARTS %%%%%%%%%%%%%%%%%%%%%%%%%%
 % Couleurs :
 
@@ -404,7 +388,7 @@
 %%%%%% boitesimple %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand*{\boitesimple}[1]{%
 \begin{center}
-\begin{minipage}{14cm}
+\begin{minipage}{15cm}
 \begin{shaded}
 	#1
 \end{shaded}
