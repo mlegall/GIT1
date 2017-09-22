@@ -12,13 +12,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.1}Mise en place}{8}{section.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Etape n°1 : Création des bases}{8}{section.1.2.2}
+\contentsline {section}{\numberline {2.2}Etape n\textsuperscript {o}1 : Création des bases}{8}{section.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Etape n°2 : Dislocation}{10}{section.1.2.3}
+\contentsline {section}{\numberline {2.3}Etape n\textsuperscript {o}2 : Dislocation}{10}{section.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Etape n°3 : Rapprochement}{19}{section.1.2.4}
+\contentsline {section}{\numberline {2.4}Etape n\textsuperscript {o}3 : Rapprochement}{19}{section.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Etape n°4 : Remplissage}{23}{section.1.2.5}
+\contentsline {section}{\numberline {2.5}Etape n\textsuperscript {o}4 : Remplissage}{23}{section.1.2.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Construction des hypothèses de projection}{35}{chapter.1.3}
 \defcounter {refsection}{0}\relax 

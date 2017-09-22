@@ -94,7 +94,7 @@ showtabs				=false
 \maketitle
 \clearemptydoublepage
 \addcontentsline{toc}{part}{Avant propos}
-Ce document est le \textit{Rapport d'Etudes} de mon stage effectué au sein de l'Agence d'Urbanisme et de Développement de l'Intercommunalité et de l'Agglomération Rennaise (AUDIAR) au cours du premier semestre 2017, dans le cadre de mon Master 2 de Démographie auprès de l'Université de Strasbourg. Ici sont présentés les éléments produits durant le stage, constituant les éléments nécessaires au projet. Les éléments de contexte sont présents dans un document complémentaire intitulé \textit{Rapport de Stage}.\\\\\\
+Ce document est le \textit{Rapport d'Etudes} de mon stage effectué au sein de l'Agence d'Urbanisme et de Développement Intercommunal de l'Agglomération Rennaise (AUDIAR) au cours du premier semestre 2017, dans le cadre de mon Master 2 de Démographie auprès de l'Université de Strasbourg. Ici sont présentés les éléments produits durant le stage, constituant les éléments nécessaires au projet. Les éléments de contexte sont présents dans un document complémentaire intitulé \textit{Rapport de Stage}.\\\\\\
 L'ensemble est disponible sur un espace de dépôt en accès libre, à l'adresse qui suit :\\
 \begin{center}
 \href{www.github.com/mlegall/GIT1}{\ttfamily{\textbf{www.github.com/mlegall/GIT1}}}
@@ -248,7 +248,7 @@ echo (...) & Impression d'une valeur, texte prédifini ou résultant d'une variabl
   emphstyle       =[2]\color{dkyellow},
 	showspaces 			= false,
 	}
-\section{Etape n°1 : Création des bases}
+\section{Etape n\textsuperscript{o}1 : Création des bases}
 \begin{lstlisting}[caption = Création des bases et architecture des données, language = php]
 <?php 
 #0 INIT.
@@ -348,7 +348,7 @@ else {echo"Votre base était deja creee</br>";};
 	mysqli_query($con,$SQL_2_203)or die("Error in query :  SQL_2_203. ".mysql_error($con));
 	echo 'Data frame de la table individus crée </br>'; $
 \end{lstlisting}
-\section{Etape n°2 : Dislocation}
+\section{Etape n\textsuperscript{o}2 : Dislocation}
 \begin{lstlisting}[caption = Script php permettant de créer la nouvelle base intégrant individus et ménages par déduction du fichier ménage, language = php]
 #3	INPUTATION DIRECTE ( DEPUIS FICHIER MENAGE)
 #	AGE
@@ -795,7 +795,7 @@ mysqli_query($con,$SQL_AEMMTRMa)  or die(mysqli_error($con)."Error in query SQL_
 $SQL_AEMMTRMb="	UPDATE rc2013.individus SET aemm = IF(2013 - right(aged,2) > aemm,2013 - right(aged,2), IF(2013 - right(aged,2) <= aemm, aemm, NULL)) WHERE rang <> 1";
 mysqli_query($con,$SQL_AEMMTRMb)  or die(mysqli_error($con)."Error in query SQL_AEMMTRMb");	
 \end{lstlisting}
-\section{Etape n°3 : Rapprochement}
+\section{Etape n\textsuperscript{o}3 : Rapprochement}
 \begin{lstlisting}[caption = Script php permettant d'insérer les lignes du fichier détails individus dans la base de projection, language = php]
 ####																																		####
 #	CLEFS DE MISE EN RELATION DES INDIVIDUS DU FICHIER AU QUART
@@ -1062,7 +1062,7 @@ WHERE IRIS_2013 like '35024%' OR iris_2013 like '35281%'  ";
 		}
 	}
 \end{lstlisting}
-\section{Etape n°4 : Remplissage}	
+\section{Etape n\textsuperscript{o}4 : Remplissage}	
 \begin{lstlisting}[caption = Script php permettant de remplir les données manquantes selon les lois de probabilités sur le Reste à Distribuer, language = php]
 
 #	Age
@@ -2052,7 +2052,7 @@ La méthode ayant servi pour les générer est intégrée dans Excel, les programmes 
 \caption{Vue dans phpMyAdmin de la table MySql des migrants générés pour 2013 mais non encore intégrés}
 \end{figure}
 \newpage
-\chapter[Projection]{Etape n°5 : Projection}
+\chapter[Projection]{Etape n\textsuperscript{o}5 : Projection}
 \begin{lstlisting}[caption= Paramètrage de la page HTML générant l'interface, language = HTML]
 <html>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//FR"
