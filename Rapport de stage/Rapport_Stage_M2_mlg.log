@@ -1,0 +1,3155 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.5.26)  23 SEP 2017 15:28
+entering extended mode
+**./Rapport_Stage_M2_mlg.tex
+(Rapport_Stage_M2_mlg.tex
+LaTeX2e <2017-04-15>
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+(bredele.cls
+Document Class: bredele 14/09/2010 v2.0
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\book.cls"
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\bk12.clo"
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\inputenc.sty"
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\utf8.def"
+File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0232 (decimal 562)
+   defining Unicode char U+0233 (decimal 563)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+   defining Unicode char U+1E20 (decimal 7712)
+   defining Unicode char U+1E21 (decimal 7713)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\babel\babel.sty"
+Package: babel 2016/04/23 3.9r The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\babel-french\frenchb.ldf"
+Language: frenchb 2017/01/30 v3.2g French support from the babel system
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\babel\babel.def"
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+\l@acadian = a dialect from \language\l@french 
+\l@canadien = a dialect from \language\l@french 
+\FB@nonchar=\count89
+\FBcolonskip=\skip43
+\FBthinskip=\skip44
+Package babel Info: Making : an active character on input line 365.
+Package babel Info: Making ; an active character on input line 366.
+Package babel Info: Making ! an active character on input line 367.
+Package babel Info: Making ? an active character on input line 368.
+\FBguillskip=\skip45
+\FBguill@level=\count90
+\FB@everypar=\toks16
+\FB@Mht=\dimen104
+\mc@charclass=\count91
+\mc@charfam=\count92
+\mc@charslot=\count93
+\std@mcc=\count94
+\dec@mcc=\count95
+\listindentFB=\skip46
+\descindentFB=\skip47
+\labelwidthFB=\skip48
+\leftmarginFB=\skip49
+\parindentFFN=\dimen105
+\FBfnindent=\skip50
+))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\carlisle\scalefnt.sty")
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\graphics-def\pdftex.def"
+File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count96
+))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\textcomp.sty"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\ts1enc.dfu"
+File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\fontenc.sty"
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\t1enc.def"
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\pgf\frontendlayer\tikz.sty"
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\pgf\basiclayer\pgf.sty"
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\pgf\utilities\pgfrcs.sty"
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks18
+\pgfutil@tempdima=\dimen106
+\pgfutil@tempdimb=\dimen107
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\utilities\pgfutil-common-lists
+.tex"))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\utilities\pgfutil-latex.def"
+\pgfutil@abb=\box26
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\ms\everyshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\utilities\pgfrcs.code.tex"
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\pgf\basiclayer\pgfcore.sty"
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\graphics\graphics.sty"
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen108
+\Gin@req@width=\dimen109
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\pgf\systemlayer\pgfsys.sty"
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\systemlayer\pgfsys.code.tex"
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks19
+\pgfkeys@temptoks=\toks20
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\utilities\pgfkeysfiltered.code
+.tex"
+\pgfkeys@tmptoks=\toks21
+))
+\pgf@x=\dimen110
+\pgf@y=\dimen111
+\pgf@xa=\dimen112
+\pgf@ya=\dimen113
+\pgf@xb=\dimen114
+\pgf@yb=\dimen115
+\pgf@xc=\dimen116
+\pgf@yc=\dimen117
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count97
+\c@pgf@countb=\count98
+\c@pgf@countc=\count99
+\c@pgf@countd=\count100
+\t@pgf@toka=\toks22
+\t@pgf@tokb=\toks23
+\t@pgf@tokc=\toks24
+ ("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\systemlayer\pgf.cfg"
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\systemlayer\pgfsys-common-pdf.
+def"
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.cod
+e.tex"
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count101
+\pgfsyssoftpath@bigbuffer@items=\count102
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.cod
+e.tex"
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+)) ("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex"
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmath.code.tex"
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmathcalc.code.tex"
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmathutil.code.tex")
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen118
+\pgfmath@count=\count103
+\pgfmath@box=\box27
+\pgfmath@toks=\toks25
+\pgfmath@stack@operand=\toks26
+\pgfmath@stack@operation=\toks27
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmathfunctions.code.tex
+"
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmathfunctions.basic.co
+de.tex")
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmathfunctions.trigonom
+etric.code.tex")
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmathfunctions.random.c
+ode.tex")
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmathfunctions.comparis
+on.code.tex")
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmathfunctions.base.cod
+e.tex")
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmathfunctions.round.co
+de.tex")
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmathfunctions.misc.cod
+e.tex")
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmathfunctions.integera
+rithmetics.code.tex")))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count104
+))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.
+tex"
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen119
+\pgf@picmaxx=\dimen120
+\pgf@picminy=\dimen121
+\pgf@picmaxy=\dimen122
+\pgf@pathminx=\dimen123
+\pgf@pathmaxx=\dimen124
+\pgf@pathminy=\dimen125
+\pgf@pathmaxy=\dimen126
+\pgf@xx=\dimen127
+\pgf@xy=\dimen128
+\pgf@yx=\dimen129
+\pgf@yy=\dimen130
+\pgf@zx=\dimen131
+\pgf@zy=\dimen132
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruc
+t.code.tex"
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen133
+\pgf@path@lasty=\dimen134
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.co
+de.tex"
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen135
+\pgf@shorten@start@additional=\dimen136
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.
+tex"
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box28
+\pgf@hbox=\box29
+\pgf@layerbox@main=\box30
+\pgf@picture@serial@count=\count105
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcoregraphicstate
+.code.tex"
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen137
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcoretransformati
+ons.code.tex"
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen138
+\pgf@pt@y=\dimen139
+\pgf@pt@temp=\dimen140
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcorequick.code.t
+ex"
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcoreobjects.code
+.tex"
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcorepathprocessi
+ng.code.tex"
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcorearrows.code.
+tex"
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen141
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcoreshade.code.t
+ex"
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen142
+\pgf@sys@shading@range@num=\count106
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcoreimage.code.t
+ex"
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcoreexternal.cod
+e.tex"
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box31
+))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcorelayers.code.
+tex"
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcoretransparency
+.code.tex"
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\basiclayer\pgfcorepatterns.cod
+e.tex"
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\modules\pgfmoduleshapes.code.t
+ex"
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box32
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\modules\pgfmoduleplot.code.tex
+"
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\pgf\compatibility\pgfcomp-version-0-
+65.sty"
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen143
+\pgf@nodesepend=\dimen144
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\pgf\compatibility\pgfcomp-version-1-
+18.sty"
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) ("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\pgf\utilities\pgffor.sty"
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\pgf\utilities\pgfkeys.sty"
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\utilities\pgfkeys.code.tex"))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\pgf\math\pgfmath.sty"
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmath.code.tex"))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\utilities\pgffor.code.tex"
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\math\pgfmath.code.tex")
+\pgffor@iter=\dimen145
+\pgffor@skip=\dimen146
+\pgffor@stack=\toks28
+\pgffor@toks=\toks29
+))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\frontendlayer\tikz\tikz.code.t
+ex"
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\libraries\pgflibraryplothandle
+rs.code.tex"
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count107
+\pgfplotmarksize=\dimen147
+)
+\tikz@lastx=\dimen148
+\tikz@lasty=\dimen149
+\tikz@lastxsaved=\dimen150
+\tikz@lastysaved=\dimen151
+\tikzleveldistance=\dimen152
+\tikzsiblingdistance=\dimen153
+\tikz@figbox=\box33
+\tikz@figbox@bg=\box34
+\tikz@tempbox=\box35
+\tikz@tempbox@bg=\box36
+\tikztreelevel=\count108
+\tikznumberofchildren=\count109
+\tikznumberofcurrentchild=\count110
+\tikz@fig@count=\count111
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\modules\pgfmodulematrix.code.t
+ex"
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count112
+\pgfmatrixcurrentcolumn=\count113
+\pgf@matrix@numberofcolumns=\count114
+)
+\tikz@expandcount=\count115
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\pgf\frontendlayer\tikz\libraries\t
+ikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\fix-cm.sty"
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\sectsty\sectsty.sty"
+Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
+les
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\shorttoc\shorttoc.sty"
+Package: shorttoc 2002/08/20 v1.3 Short table of contents (JPFD)
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2016/09/06 3.8 Extensive control of page headers and footers
+\fancy@headwidth=\skip51
+\f@ncyO@elh=\skip52
+\f@ncyO@erh=\skip53
+\f@ncyO@olh=\skip54
+\f@ncyO@orh=\skip55
+\f@ncyO@elf=\skip56
+\f@ncyO@erf=\skip57
+\f@ncyO@olf=\skip58
+\f@ncyO@orf=\skip59
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\psnfss\pifont.sty"
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\psnfss\upzd.fd"
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\psnfss\upsy.fd"
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count116
+\Gm@cntv=\count117
+\c@Gm@tempcnt=\count118
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
+\Gm@dimlist=\toks30
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\geometry\geometry.cfg"))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen162
+\Hy@linkcounter=\count119
+\Hy@pagecounter=\count120
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count121
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count122
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen163
+\Fld@menulength=\count123
+\Field@Width=\dimen164
+\Fld@charsize=\dimen165
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count124
+\c@Item=\count125
+\c@Hfootnote=\count126
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
+\Fld@listcount=\count127
+\c@bookmark@seq@number=\count128
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip60
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 76.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\framed\framed.sty"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip61
+\fb@frw=\dimen166
+\fb@frh=\dimen167
+\FrameRule=\dimen168
+\FrameSep=\dimen169
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\csquotes\csquotes.sty"
+Package: csquotes 2017/03/11 v5.2b context-sensitive quotations (JAW)
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count129
+)
+\csq@reset=\count130
+\csq@gtype=\count131
+\csq@glevel=\count132
+\csq@qlevel=\count133
+\csq@maxlvl=\count134
+\csq@tshold=\count135
+\csq@ltx@everypar=\toks31
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\csquotes\csquotes.def"
+File: csquotes.def 2017/03/11 v5.2b csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\csquotes\csquotes.cfg"
+File: csquotes.cfg 
+))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\biblatex\biblatex.sty"
+Package: biblatex 2016/12/05 v3.7 programmable bibliographies (PK/JW/AB)
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count136
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\xstring\xstring.sty"
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\xstring\xstring.tex"
+\@xs@message=\write4
+\integerpart=\count137
+\decimalpart=\count138
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+\c@tabx@nest=\count139
+\c@listtotal=\count140
+\c@listcount=\count141
+\c@liststart=\count142
+\c@liststop=\count143
+\c@citecount=\count144
+\c@citetotal=\count145
+\c@multicitecount=\count146
+\c@multicitetotal=\count147
+\c@instcount=\count148
+\c@maxnames=\count149
+\c@minnames=\count150
+\c@maxitems=\count151
+\c@minitems=\count152
+\c@citecounter=\count153
+\c@savedcitecounter=\count154
+\c@uniquelist=\count155
+\c@uniquename=\count156
+\c@refsection=\count157
+\c@refsegment=\count158
+\c@maxextratitle=\count159
+\c@maxextratitleyear=\count160
+\c@maxextrayear=\count161
+\c@maxextraalpha=\count162
+\c@abbrvpenalty=\count163
+\c@highnamepenalty=\count164
+\c@lownamepenalty=\count165
+\c@maxparens=\count166
+\c@parenlevel=\count167
+\blx@tempcnta=\count168
+\blx@tempcntb=\count169
+\blx@tempcntc=\count170
+\blx@maxsection=\count171
+\blx@maxsegment@0=\count172
+\blx@notetype=\count173
+\blx@parenlevel@text=\count174
+\blx@parenlevel@foot=\count175
+\blx@sectionciteorder@0=\count176
+\labelnumberwidth=\skip62
+\labelalphawidth=\skip63
+\biblabelsep=\skip64
+\bibitemsep=\skip65
+\bibnamesep=\skip66
+\bibinitsep=\skip67
+\bibparsep=\skip68
+\bibhang=\skip69
+\blx@bcfin=\read2
+\blx@bcfout=\write5
+\c@mincomprange=\count177
+\c@maxcomprange=\count178
+\c@mincompwidth=\count179
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\biblatex\blx-dm.def")
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'verbose-trad1.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count180
+\c@savedafterword=\count181
+\c@annotator=\count182
+\c@savedannotator=\count183
+\c@author=\count184
+\c@savedauthor=\count185
+\c@bookauthor=\count186
+\c@savedbookauthor=\count187
+\c@commentator=\count188
+\c@savedcommentator=\count189
+\c@editor=\count190
+\c@savededitor=\count191
+\c@editora=\count192
+\c@savededitora=\count193
+\c@editorb=\count194
+\c@savededitorb=\count195
+\c@editorc=\count196
+\c@savededitorc=\count197
+\c@foreword=\count198
+\c@savedforeword=\count199
+\c@holder=\count266
+\c@savedholder=\count267
+\c@introduction=\count268
+\c@savedintroduction=\count269
+\c@namea=\count270
+\c@savednamea=\count271
+\c@nameb=\count272
+\c@savednameb=\count273
+\c@namec=\count274
+\c@savednamec=\count275
+\c@translator=\count276
+\c@savedtranslator=\count277
+\c@shortauthor=\count278
+\c@savedshortauthor=\count279
+\c@shorteditor=\count280
+\c@savedshorteditor=\count281
+\c@labelname=\count282
+\c@savedlabelname=\count283
+\c@institution=\count284
+\c@savedinstitution=\count285
+\c@lista=\count286
+\c@savedlista=\count287
+\c@listb=\count288
+\c@savedlistb=\count289
+\c@listc=\count290
+\c@savedlistc=\count291
+\c@listd=\count292
+\c@savedlistd=\count293
+\c@liste=\count294
+\c@savedliste=\count295
+\c@listf=\count296
+\c@savedlistf=\count297
+\c@location=\count298
+\c@savedlocation=\count299
+\c@organization=\count300
+\c@savedorganization=\count301
+\c@origlocation=\count302
+\c@savedoriglocation=\count303
+\c@origpublisher=\count304
+\c@savedorigpublisher=\count305
+\c@publisher=\count306
+\c@savedpublisher=\count307
+\c@language=\count308
+\c@savedlanguage=\count309
+\c@pageref=\count310
+\c@savedpageref=\count311
+\shorthandwidth=\skip70
+\shortjournalwidth=\skip71
+\shortserieswidth=\skip72
+\shorttitlewidth=\skip73
+\shortauthorwidth=\skip74
+\shorteditorwidth=\skip75
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\biblatex\blx-compat.def"
+File: blx-compat.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\biblatex\biblatex.def"
+File: biblatex.def 2016/12/05 v3.7 biblatex compatibility (PK/JW/AB)
+\c@textcitecount=\count312
+\c@textcitetotal=\count313
+\c@textcitemaxnames=\count314
+\c@biburlnumpenalty=\count315
+\c@biburlucpenalty=\count316
+\c@biburllcpenalty=\count317
+\c@smartand=\count318
+)
+Package biblatex Info: Trying to load bibliography style 'verbose-trad1'...
+Package biblatex Info: ... file 'verbose-trad1.bbx' found.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\biblatex\bbx\verbose-trad1.bbx"
+File: verbose-trad1.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'authortitle'...
+Package biblatex Info: ... file 'authortitle.bbx' found.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\biblatex\bbx\authortitle.bbx"
+File: authortitle.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\biblatex\bbx\standard.bbx"
+File: standard.bbx 2016/12/05 v3.7 biblatex bibliography style (PK/JW/AB)
+\c@bbx:relatedcount=\count319
+\c@bbx:relatedtotal=\count320
+)))
+Package biblatex Info: Trying to load citation style 'verbose-trad1'...
+Package biblatex Info: ... file 'verbose-trad1.cbx' found.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\biblatex\cbx\verbose-trad1.cbx"
+File: verbose-trad1.cbx 2016/12/05 v3.7 biblatex citation style (PK/JW/AB)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\biblatex\biblatex.cfg"
+File: biblatex.cfg 
+)))
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\tools\array.sty"
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen170
+\extrarowheight=\dimen171
+\NC@list=\toks32
+\extratabsurround=\skip76
+\backup@length=\skip77
+)
+\everycr=\toks33
+\minrowclearance=\skip78
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 11.
+Package hyperref Info: Option `breaklinks' set `true' on input line 11.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 11.
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'french'.
+Package biblatex Info: Trying to load language 'french'...
+Package biblatex Info: ... file 'french.lbx' found.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\biblatex\lbx\french.lbx"
+File: french.lbx 2016/12/05 v3.7 biblatex localization (PK/JW/AB)
+)
+(Rapport_Stage_M2_mlg.aux)
+\openout1 = `Rapport_Stage_M2_mlg.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 36.
+LaTeX Font Info:    ... okay on input line 36.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 36.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Info: Redefining \degres on input line 36.
+LaTeX Info: Redefining \dots on input line 36.
+LaTeX Info: Redefining \up on input line 36.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count321
+\scratchdimen=\dimen172
+\scratchbox=\box37
+\nofMPsegments=\count322
+\nofMParguments=\count323
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count324
+\MPscratchDim=\dimen173
+\MPnumerator=\count325
+\makeMPintoPDFobject=\count326
+\everyMPtoPDFconversion=\toks35
+) ("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
+ABD: EveryShipout initializing macros
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 455.24411pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-18.78552pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=38.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box38
+Package hyperref Info: Link coloring ON on input line 36.
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\hyperref\nameref.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count327
+)
+LaTeX Info: Redefining \ref on input line 36.
+LaTeX Info: Redefining \pageref on input line 36.
+LaTeX Info: Redefining \nameref on input line 36.
+
+(Rapport_Stage_M2_mlg.out) (Rapport_Stage_M2_mlg.out)
+\@outlinefile=\write6
+\openout6 = `Rapport_Stage_M2_mlg.out'.
+
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `Rapport_Stage_M2_mlg.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file 'Rapport_Stage_M2_mlg.bbl' found.
+ (Rapport_Stage_M2_mlg.bbl)
+Package biblatex Info: Reference section=0 on input line 36.
+Package biblatex Info: Reference segment=0 on input line 36.
+ <logo_univ.png, id=189, 187.45032pt x 75.28125pt>
+File: logo_univ.png Graphic file (type png)
+ <use logo_univ.png>
+Package pdftex.def Info: logo_univ.png used on input line 37.
+(pdftex.def)             Requested size: 131.21431pt x 52.6965pt.
+
+<logo_labo.png, id=190, 71.0655pt x 88.4103pt>
+File: logo_labo.png Graphic file (type png)
+ <use logo_labo.png>
+Package pdftex.def Info: logo_labo.png used on input line 37.
+(pdftex.def)             Requested size: 49.74548pt x 61.88676pt.
+
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 37.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \maketitle
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.37 \maketitle
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 37.
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 37.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 37.
+
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 37.
+
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 37.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 37.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 37.
+ [1
+
+
+{C:/Users/LE GALL/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logo_un
+iv.png> <./logo_labo.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 41--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--47
+
+ []
+
+[2
+
+
+]
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 57.
+ ("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 54--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--70
+
+ []
+
+[1
+
+
+
+] [2] [3] (Rapport_Stage_M2_mlg.toc) [4
+
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.75 ...]{Présentation de la structure d'accueil}
+                                                   [1
+
+
+
+]
+Chapitre 1.
+<schema_AGURBA.png, id=251, 963.6pt x 542.025pt>
+File: schema_AGURBA.png Graphic file (type png)
+ <use schema_AGURBA.png>
+Package pdftex.def Info: schema_AGURBA.png used on input line 81.
+(pdftex.def)             Requested size: 455.24411pt x 256.07507pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.85 \newpage
+              [2
+
+] <AgenceFNAU.png, id=256, 545.78906pt x 433.62pt>
+File: AgenceFNAU.png Graphic file (type png)
+
+<use AgenceFNAU.png>
+Package pdftex.def Info: AgenceFNAU.png used on input line 93.
+(pdftex.def)             Requested size: 455.24411pt x 361.68434pt.
+
+! Undefined control sequence.
+l.96 \Source
+            {Source : FNAU}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--99
+
+ []
+
+[3 <./schema_AGURBA.png>] [4 <./AgenceFNAU.png>]
+Chapitre 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
+
+ []
+
+<dynamiques.png, id=273, 614.295pt x 496.85625pt>
+File: dynamiques.png Graphic file (type png)
+ <use dynamiques.png>
+Package pdftex.def Info: dynamiques.png used on input line 115.
+(pdftex.def)             Requested size: 455.24411pt x 368.21371pt.
+
+! Undefined control sequence.
+l.118 \Source
+             {Source : Insee, Recensement principal}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<pyra.png, id=274, 779.91376pt x 480.29437pt>
+File: pyra.png Graphic file (type png)
+ <use pyra.png>
+Package pdftex.def Info: pyra.png used on input line 124.
+(pdftex.def)             Requested size: 483.69684pt x 297.8747pt.
+
+Overfull \hbox (28.45273pt too wide) in paragraph at lines 124--125
+ [][] 
+ []
+
+! Undefined control sequence.
+l.127 \source
+             {Source : Insee, Recensement principal 2013}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--136
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--138
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--138
+
+ []
+
+[5
+
+] [6] [7 <./dynamiques.png>] [8 <./pyra.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--152
+
+ []
+
+
+Overfull \hbox (4.00989pt too wide) in paragraph at lines 145--152
+\T1/lmr/m/n/12 connec-tant Rennes � 1h25 de Pa-ris. Entre r�el po-ten-tiel d'at
+-trac-ti-vit� et sur-communication
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--152
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--152
+
+ []
+
+[9]
+! Misplaced alignment tab character &.
+<argument> Organisation hiérarchique &
+                                        évolution
+l.153 ...{Organisation hiérarchique & évolution}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `alignment tab' on input line 153.
+
+<organigramme1.png, id=308, 545.03625pt x 384.6872pt>
+File: organigramme1.png Graphic file (type png)
+ <use organigramme1.png>
+Package pdftex.def Info: organigramme1.png used on input line 158.
+(pdftex.def)             Requested size: 341.43306pt x 240.98067pt.
+
+! Undefined control sequence.
+l.161 \source
+             {Source : AUDIAR}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<organigramme2.png, id=309, 716.6775pt x 506.6428pt>
+File: organigramme2.png Graphic file (type png)
+ <use organigramme2.png>
+Package pdftex.def Info: organigramme2.png used on input line 165.
+(pdftex.def)             Requested size: 341.43306pt x 241.36906pt.
+
+! Undefined control sequence.
+l.168 \source
+             {Source : AUDIAR}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--171
+
+ []
+
+[10] [11] [12 <./organigramme1.png> <./organigramme2.png>] [13
+
+
+]
+Chapitre 1.
+<VUEV5.png, id=338, 1167.61218pt x 499.11469pt>
+File: VUEV5.png Graphic file (type png)
+ <use VUEV5.png>
+Package pdftex.def Info: VUEV5.png used on input line 198.
+(pdftex.def)             Requested size: 455.24411pt x 194.60062pt.
+
+! Undefined control sequence.
+l.201 \source
+             {Source: L. BOURRIQUEN, Audiar}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--204
+
+ []
+
+[14
+
+] [15] [16 <./VUEV5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 206--208
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 \\\\
+          Un plan de travail plus précis a été défini à la suite de la ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 \\\\U
+           n plan de travail plus précis a été défini à la suite de la ...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
+
+ []
+
+
+Underfull \hbox (badness 1931) in paragraph at lines 226--226
+\T1/lmr/m/n/12 Cette concep-tua-li-sa-tion est une am�-lio-ra-tion du mo-d�le e
+n cas-cade, c'est-�-dire
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
+
+ []
+
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 226.
+
+("C:\Users\LE GALL\Desktop\LaTeX\tex\latex\lm\t1lmss.fd"
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Overfull \hbox (20.4pt too wide) in paragraph at lines 226--226
+ [][] 
+ []
+
+<methodeITER.png, id=354, 437.38406pt x 168.63pt>
+File: methodeITER.png Graphic file (type png)
+ <use methodeITER.png>
+Package pdftex.def Info: methodeITER.png used on input line 230.
+(pdftex.def)             Requested size: 455.24411pt x 175.51772pt.
+
+! Undefined control sequence.
+l.233 \source
+             {Source : \href{https://www.irisa.fr/triskell/members/pierre-al...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[17
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 238--241
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 \\\\
+          La première partie, jusque fin mars a été tenue et par la suite...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.250 \\\\L
+           a première partie, jusque fin mars a été tenue et par la suite...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--254
+
+ []
+
+[18 <./methodeITER.png>] <calendrierV1.png, id=366, 672.26157pt x 298.86656pt>
+File: calendrierV1.png Graphic file (type png)
+
+<use calendrierV1.png>
+Package pdftex.def Info: calendrierV1.png used on input line 256.
+(pdftex.def)             Requested size: 455.24411pt x 202.38745pt.
+
+<TempsPresencePartagee.png, id=367, 926.71219pt x 184.43906pt>
+File: TempsPresencePartagee.png Graphic file (type png)
+
+<use TempsPresencePartagee.png>
+Package pdftex.def Info: TempsPresencePartagee.png used on input line 260.
+(pdftex.def)             Requested size: 455.24411pt x 90.60669pt.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.261 ... tout au long de la période de stage} \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[19 <./calendrierV1.png> <./TempsPresencePartagee.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 271--272
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+[]|\T1/lmr/m/n/12 Informations dif-fi-ci-le-ment d�-chif-frable
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 306--324
+
+ []
+
+[20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 324--324
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 326--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--329
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
+
+ []
+
+[23] [24] <PROCESSBDD_1.png, id=414, 722.7pt x 542.025pt>
+File: PROCESSBDD_1.png Graphic file (type png)
+
+<use PROCESSBDD_1.png>
+Package pdftex.def Info: PROCESSBDD_1.png used on input line 337.
+(pdftex.def)             Requested size: 455.24411pt x 341.4362pt.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.343 }
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+<argument> Tel que :\\ Cl, Cm, I, i \in \mathds 
+                                                N \\ C = Cl + Cm ,\\ I > i 
+l.343 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.343 }
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--345
+
+ []
+
+[25 <./PROCESSBDD_1.png>] <PROCESSBDD_2.png, id=424, 722.7pt x 542.025pt>
+File: PROCESSBDD_2.png Graphic file (type png)
+
+<use PROCESSBDD_2.png>
+Package pdftex.def Info: PROCESSBDD_2.png used on input line 352.
+(pdftex.def)             Requested size: 455.24411pt x 341.4362pt.
+
+! Undefined control sequence.
+<argument> Tel que :\\ $Xj, r \in \mathds 
+                                          N$ \\ $n = \sum _{j=1}^{i} Xj$ \\ ...
+l.358 }
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--360
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--360
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--360
+
+ []
+
+[26] [27 <./PROCESSBDD_2.png>] <PROCESSBDD_3.png, id=437, 722.7pt x 542.025pt>
+File: PROCESSBDD_3.png Graphic file (type png)
+
+<use PROCESSBDD_3.png>
+Package pdftex.def Info: PROCESSBDD_3.png used on input line 369.
+(pdftex.def)             Requested size: 455.24411pt x 341.4362pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <14.4> on input line 372.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 372.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 372.
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--374
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--374
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--374
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 362--374
+
+ []
+
+[28] [29 <./PROCESSBDD_3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 376--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--385
+
+ []
+
+[30] <PROCESSBDD_4.png, id=456, 722.7pt x 542.025pt>
+File: PROCESSBDD_4.png Graphic file (type png)
+ <use PROCESSBDD_4.png>
+Package pdftex.def Info: PROCESSBDD_4.png used on input line 387.
+(pdftex.def)             Requested size: 455.24411pt x 341.4362pt.
+
+! Undefined control sequence.
+<argument> ...périmètre\\ $Y_{a,b} \in \mathsds 
+                                                  N$, Variable du sous-group...
+l.393 ...able du sous-groupe Age quinquennal-sexe}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[31 <./PROCESSBDD_4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
+
+ []
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 403.
+
+LaTeX Warning: Command \' invalid in math mode on input line 403.
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 403.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.404 \newline
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--409
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--409
+
+ []
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \mathclose 
+l.414 \end{equation}
+                    
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+! Undefined control sequence.
+l.419 $1$& \texit
+                 {si vivant en fin d'année (correspond à Etat\_0101 l'ann�...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 419.
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 419.
+
+
+LaTeX Warning: Command \' invalid in math mode on input line 419.
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \mathclose 
+l.421 \end{equation}
+                    
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.424 \\\\
+          Les caractéristiques du sexe et du diplôme sont gardées constan...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.424 \\\\L
+           es caractéristiques du sexe et du diplôme sont gardées constan...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--426
+
+ []
+
+[32]
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \mathclose 
+l.430 \end{equation}
+                    
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.432 \\\\
+          Les ménages pour lesquels une femme a connu une naissance connais...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.432 \\\\L
+           es ménages pour lesquels une femme a connu une naissance connais...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--434
+
+ []
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \mathclose 
+l.439 \end{equation}
+                    
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.443 \\\\
+          Les immigrations sont issus des choix effectués dans la version c...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.443 \\\\L
+           es immigrations sont issus des choix effectués dans la version c...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 443--446
+
+ []
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \mathclose 
+l.451 \end{equation}
+                    
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.453 \\\\
+          \\Les départs, ou émigrations, étaient censés être à l'éche...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.453 \\\\\\
+            Les départs, ou émigrations, étaient censés être à l'éche...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.453 \\\\\\L
+             es départs, ou émigrations, étaient censés être à l'éche...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--460
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--460
+
+ []
+
+[33] <PROCESSBDD_5.png, id=479, 722.7pt x 542.025pt>
+File: PROCESSBDD_5.png Graphic file (type png)
+ <use PROCESSBDD_5.png>
+Package pdftex.def Info: PROCESSBDD_5.png used on input line 463.
+(pdftex.def)             Requested size: 455.24411pt x 341.4362pt.
+
+[34]
+! Undefined control sequence.
+l.476 ...calage des séries de quotients par\texit
+                                                  {intensité} est relativem...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.477 \\\\En revanche les éléments de \texit
+                                              {calendrier} ne sont pas modif...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--485
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--485
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--485
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--485
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--485
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 472--485
+
+ []
+
+[35
+
+ <./PROCESSBDD_5.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 485--485
+
+ []
+
+[36] <HYPOFEC.png, id=495, 813.0375pt x 565.36218pt>
+File: HYPOFEC.png Graphic file (type png)
+ <use HYPOFEC.png>
+Package pdftex.def Info: HYPOFEC.png used on input line 487.
+(pdftex.def)             Requested size: 455.24411pt x 316.55753pt.
+
+! Undefined control sequence.
+l.490 \source
+             {Source : INSEE}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 494--497
+
+ []
+
+[37 <./HYPOFEC.png>]
+Overfull \hbox (18.94286pt too wide) in paragraph at lines 504--527
+ [][] 
+ []
+
+! Undefined control sequence.
+l.529 \Source
+             {Source : INSEE}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[38] [39]
+Underfull \hbox (badness 10000) in paragraph at lines 534--540
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--540
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--540
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--540
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 534--540
+
+ []
+
+[40]
+Chapitre 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--555
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--555
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--555
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--555
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 544--555
+
+ []
+
+[41
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 557--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 557--586
+
+ []
+
+[42] [43]
+Underfull \hbox (badness 10000) in paragraph at lines 586--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--586
+
+ []
+
+
+Underfull \hbox (badness 1033) in paragraph at lines 586--586
+\T1/lmr/bx/n/12 Pr�cautions \T1/lmr/m/n/12 : L'unit� de tra-vail est la mi-gra-
+tion, dif-f�-rente de l'in-di-vidu, mais
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--586
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 586--586
+
+ []
+
+
+Overfull \hbox (20.4pt too wide) in paragraph at lines 586--586
+ [] 
+ []
+
+[44] [45]
+Underfull \hbox (badness 10000) in paragraph at lines 589--591
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 592--595
+
+ []
+
+[46]
+Overfull \hbox (11.73085pt too wide) in paragraph at lines 597--605
+[][] 
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.607 \\\\
+          De même, il a fallu déterminer des zonages, regroupant les nombr...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.607 \\\\D
+           e même, il a fallu déterminer des zonages, regroupant les nombr...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Overfull \hbox (6.89627pt too wide) in paragraph at lines 611--629
+[][] 
+ []
+
+<CARTOZONAGE.png, id=552, 725.71124pt x 409.53pt>
+File: CARTOZONAGE.png Graphic file (type png)
+ <use CARTOZONAGE.png>
+Package pdftex.def Info: CARTOZONAGE.png used on input line 632.
+(pdftex.def)             Requested size: 455.24411pt x 256.90544pt.
+
+! Undefined control sequence.
+l.635 \source
+             {Source : AUDIAR}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<ORGAMISSION2.png, id=553, 703.12688pt x 483.30562pt>
+File: ORGAMISSION2.png Graphic file (type png)
+ <use ORGAMISSION2.png>
+Package pdftex.def Info: ORGAMISSION2.png used on input line 640.
+(pdftex.def)             Requested size: 455.24411pt x 312.91336pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--644
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--644
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--644
+
+ []
+
+[47] [48] [49 <./CARTOZONAGE.png> <./ORGAMISSION2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 651--654
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 651--654
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 659--662
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 659--662
+
+ []
+
+[50]
+Underfull \hbox (badness 10000) in paragraph at lines 663--669
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--669
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 663--669
+
+ []
+
+[51]
+Underfull \hbox (badness 10000) in paragraph at lines 670--676
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--676
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--676
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 670--676
+
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 677--686
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--686
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--686
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--686
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 677--686
+
+ []
+
+[53] [54] [55] [56
+
+
+]
+Chapitre 1.
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 689.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--695
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--705
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--705
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--705
+
+ []
+
+[57
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 711--712
+
+ []
+
+[58] [59]
+Chapitre 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 725--734
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 725--734
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 725--734
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 725--734
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 725--734
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 725--734
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 725--734
+
+ []
+
+[60
+
+
+] [61] (Rapport_Stage_M2_mlg.toc
+! Misplaced alignment tab character &.
+<argument> ...Organisation hi\IeC {\'e}rarchique &
+                                                   \IeC {\'e}volution}\hyper...
+l.33 ...IeC {\'e}volution}{10}{subsection.1.2.2.1}
+                                                  
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[62
+
+
+
+
+])
+\tf@toc=\write7
+\openout7 = `Rapport_Stage_M2_mlg.toc'.
+
+ [63] (Rapport_Stage_M2_mlg.lot)
+\tf@lot=\write8
+\openout8 = `Rapport_Stage_M2_mlg.lot'.
+
+ [64
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 744.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 744.
+ (Rapport_Stage_M2_mlg.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 744.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 744.
+Package rerunfilecheck Info: File `Rapport_Stage_M2_mlg.out' has not changed.
+(rerunfilecheck)             Checksum: 43042F9AEBD46203A75D647EFE6E1B6F;3593.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+Package logreq Info: Writing requests to 'Rapport_Stage_M2_mlg.run.xml'.
+\openout1 = `Rapport_Stage_M2_mlg.run.xml'.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 744.
+ ) 
+Here is how much of TeX's memory you used:
+ 25381 strings out of 493328
+ 463321 string characters out of 3137823
+ 906430 words of memory out of 3000000
+ 28259 multiletter control sequences out of 15000+200000
+ 105712 words of font info for 68 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,17n,56p,1904b,2007s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not ex
+ist, replaced by a fixed one
+
+{C:/Users/LE GALL/Desktop/LaTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/LE G
+ALL/Desktop/LaTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/LE GALL/Desktop/LaTeX/
+fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/LE GALL/Desktop/LaTeX/fonts/enc/dvip
+s/lm/lm-mathex.enc}{C:/Users/LE GALL/Desktop/LaTeX/fonts/enc/dvips/lm/lm-ts1.en
+c}{C:/Users/LE GALL/Desktop/LaTeX/fonts/enc/dvips/lm/lm-ec.enc}<C:/Users/LE GAL
+L/Desktop/LaTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/LE GALL/Desktop/LaTe
+X/fonts/type1/public/lm/lmbx12.pfb><C:/Users/LE GALL/Desktop/LaTeX/fonts/type1/
+public/lm/lmcsc10.pfb><C:/Users/LE GALL/Desktop/LaTeX/fonts/type1/public/lm/lme
+x10.pfb><C:/Users/LE GALL/Desktop/LaTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Us
+ers/LE GALL/Desktop/LaTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/LE GALL/De
+sktop/LaTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/LE GALL/Desktop/LaTeX/fon
+ts/type1/public/lm/lmr10.pfb><C:/Users/LE GALL/Desktop/LaTeX/fonts/type1/public
+/lm/lmr12.pfb><C:/Users/LE GALL/Desktop/LaTeX/fonts/type1/public/lm/lmr17.pfb><
+C:/Users/LE GALL/Desktop/LaTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/LE GALL
+/Desktop/LaTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/LE GALL/Desktop/LaTeX
+/fonts/type1/public/lm/lmri12.pfb><C:/Users/LE GALL/Desktop/LaTeX/fonts/type1/p
+ublic/lm/lmro12.pfb><C:/Users/LE GALL/Desktop/LaTeX/fonts/type1/public/lm/lmssb
+x10.pfb><C:/Users/LE GALL/Desktop/LaTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Us
+ers/LE GALL/Desktop/LaTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Users/LE GALL/Des
+ktop/LaTeX/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on Rapport_Stage_M2_mlg.pdf (70 pages, 1884238 bytes).
+PDF statistics:
+ 807 PDF objects out of 1000 (max. 8388607)
+ 182 named destinations out of 1000 (max. 500000)
+ 481 words of extra memory for PDF output out of 10000 (max. 10000000)
+
